@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px solid #000;
+  height: 25vh;
+}
+
+.nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 2rem;
+}
+.nav .nav_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 7vh;
+  margin: 2rem auto;
+}
+.nav .menu-nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.3rem;
+  padding: auto 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.nav .menu-nav_item {
+  padding-left: 5rem;
+}
+
+body {
+  background: #fff;
+  height: 100vh;
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+img {
+  width: auto;
+  height: 30vh;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  margin: 1.5rem 3rem;
+}
+
+.home {
+  width: auto;
+  margin: auto;
+}
+
+.who-we-are {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+.who-we-are_des {
+  align-self: center;
+  width: auto;
+  font-size: 1.5rem;
+  padding: 2rem auto;
+  margin: auto 10pc auto 0;
+  line-height: 1;
+}
+.who-we-are .who-we-are_des p {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 3rem;
+}
+.who-we-are_link {
+  text-decoration: none;
+  color: #fff;
+  background: #1492E6;
+  padding: 20px;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+.who-we-are_image {
+  width: auto;
+  height: 67vh;
+}
+
+.about {
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+.about_us {
+  font-size: 2.1rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+.about_items {
+  display: flex;
+  font-size: 1.3rem;
+  padding: 5px;
+  margin: 3rem;
+}
+.about_item1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+.about .about_item1 h5 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.services {
+  margin-bottom: 1rem;
+  padding: 3rem 0 0;
+  font-size: 2rem;
+}
+.services_us {
+  display: flex;
+  font-size: 1.3rem;
+  padding: 5px;
+  margin: 3rem;
+}
+.services_heading {
+  font-size: 2.1rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+.services_provided {
+  padding: 2rem;
+}
+.services_image {
+  width: auto;
+  height: 20vh;
+  padding-bottom: 20px;
+}
+.services .services_provided p {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.products {
+  margin-bottom: 4rem;
+  padding: 3rem 0;
+  font-size: 2rem;
+}
+.products_title {
+  font-size: 2.1rem;
+  text-align: center;
+  margin: 3rem 0;
+  padding-bottom: 2rem;
+}
+.products_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.products_detail {
+  display: flex;
+}
+.products_image {
+  width: auto;
+  height: 6vh;
+}
+.products_item1 {
+  align-self: flex-start;
+  width: 70%;
+  font-size: 1.1rem;
+}
+.products_item2 {
+  align-self: flex-end;
+  width: 40%;
+  font-size: 1.1rem;
+}
+.products_item3 {
+  align-self: flex-start;
+  width: 70%;
+  font-size: 1.1rem;
+}
+.products_item4 {
+  align-self: flex-end;
+  width: 40%;
+  font-size: 1.1rem;
+}
+.products_itemtitle {
+  padding: 1rem;
+}
+.products_link {
+  text-decoration: none;
+  color: #fff;
+  background: #1492E6;
+  padding: 10px;
+  margin: 50px 0;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+.products .products_list p {
+  margin-bottom: 2rem;
+}
+
+.testimonial-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0 1rem;
+  border-radius: 5vh;
+  padding-top: 2rem;
+}
+
+.testimonial-heading h2 {
+  font-size: 2.1rem;
+  margin: 3rem 0;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.testimonianl-head {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.testimonial_image {
+  width: auto;
+  height: 7vh;
+}
+
+.testimonial_heading1 {
+  padding: 1rem;
+}
+
+.testimonial-box-container {
+  display: flex;
+  width: auto;
+}
+
+.testimonial-box {
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 3rem 1.2rem;
+  margin: 15px;
+  border-radius: 4vh;
+  cursor: pointer;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+  top: 5vh;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-user strong {
+  color: #000;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.name-user span {
+  color: #000;
+  padding-top: 0.8rem;
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.reviews {
+  color: #ed9a0a;
+  padding: 0;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-comment p {
+  font-size: 0.9rem;
+  color: #000;
+  padding-top: 2rem;
+}
+
+@media (max-width: 1060px) {
+  .testimonial-box {
+    width: 45%;
+    padding: 10px;
+  }
+}
+@media (max-width: 790px) {
+  .testimonial-box {
+    width: 100%;
+  }
+  .testimonial-heading h1 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 340px) {
+  .box-top {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .reviews {
+    margin-top: 10px;
+  }
+}
+::-moz-selection {
+  color: #ffffff;
+  background-color: #252525;
+}
+::selection {
+  color: #ffffff;
+  background-color: #252525;
+}
+
+.partner {
+  margin-bottom: 3rem;
+  padding: 3rem 0;
+  font-size: 2rem;
+}
+.partner_heading {
+  font-size: 2.1rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+.partner_items {
+  display: flex;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.partner_details {
+  margin: 3rem 4rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+}
+.partner_image {
+  width: auto;
+  height: 8vh;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 40vh; /* Height of the footer */
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 35vh 0 4vh 0;
+}/*# sourceMappingURL=main.css.map */

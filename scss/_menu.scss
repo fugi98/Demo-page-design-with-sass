@@ -1,0 +1,38 @@
+header{
+  border-bottom: 1px solid $secondary-color;
+  height: 25vh;
+}
+
+.menu-btn {
+ 
+}
+
+.nav {
+  position:relative ;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 2rem;
+  
+  .nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 7vh;
+    margin: 2rem auto;
+  }
+
+  .menu-nav{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: auto 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-nav_item {
+   padding-left: 5rem;
+  }
+}
+
