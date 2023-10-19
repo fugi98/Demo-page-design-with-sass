@@ -1,7 +1,4 @@
-header{
-  border-bottom: 1px solid $secondary-color;
-  height: 25vh;
-}
+@import 'config';
 
 .menu-btn {
  
@@ -36,7 +33,7 @@ header{
    }
  
    .menu-nav_link{
-     color: black;
+     color: $secondary-color;
      text-decoration: none;
      font-weight: 600;
    }
